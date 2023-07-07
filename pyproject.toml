@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "custom_logger_aws_BASANT_BABU_BHANDARI"
+version = "0.0.1"
+authors = [
+  { name="Basant Babu Bhandari", email="basantbhandari2074@gmail.com" },
+]
+description = "a standard custom logging package for aws batch and lambda"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/basantbhandari/custom_logger_aws"
+"Bug Tracker" = "https://github.com/basantbhandari/custom_logger_aws/issues"
